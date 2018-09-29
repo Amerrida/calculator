@@ -1,10 +1,9 @@
+// import SOMETHING from './helpers/utlities.js';
+// // import {import the only function you want, seperate with commas}
+// //how do I tell this function to do this 4*2- mathType is the word multiply
 
-const printToDom = (stringToPrint, divId) => {
-    const selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = stringToPrint;
-  };
-
-//how do I tell this function to do this 4*2- mathType is the word multiply
+import{printToDom} from './helpers/utli.js';
+import{printToDom} from './helpers/maths.js';
 
 const multiply = (n1, n2) => {
     return n1 * n2;
